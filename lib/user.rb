@@ -1,5 +1,5 @@
 class User
-  attr_writer :name, :last_name
+  attr_accessor :name, :last_name
 
   def initialize(name, last_name)
     @name = name
